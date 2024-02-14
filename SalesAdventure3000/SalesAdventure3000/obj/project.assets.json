@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Models/1.0.0": {
+      "Engine/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/Engine.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/Engine.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Models/1.0.0": {
+    "Engine/1.0.0": {
       "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
+      "path": "../Models/Engine.csproj",
+      "msbuildProject": "../Models/Engine.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Models >= 1.0.0"
+      "Engine >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Jens\\Documents\\GitHub\\SalesAdventure3000\\SalesAdventure3000\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\SalesAdventure3000\\SalesAdventure3000\\Models\\Models.csproj"
+            "C:\\Users\\Jens\\Documents\\GitHub\\SalesAdventure3000\\SalesAdventure3000\\Models\\Engine.csproj": {
+              "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\SalesAdventure3000\\SalesAdventure3000\\Models\\Engine.csproj"
             }
           }
         }
